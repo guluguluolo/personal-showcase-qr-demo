@@ -24,7 +24,7 @@ h3 { font-size: 13px; margin: 0 0 12px; font-weight: 500; }
 .qr-placeholder { margin: auto; width: 160px; min-height: 142px; border: 1px dashed #b7c8dc; border-radius: 10px; padding: 44px 10px 24px; background: #f8fafd; color: #607791; font-size: 14px; }
 .qr-placeholder span { display: block; font-size: 10px; margin-top: 8px; }
 #qr-image { max-width: 100%; height: auto; }
-#page-link { overflow-wrap: anywhere; margin-top: 10px; color: #356eaf; font-size: 12px; }
+#page-link { display: block; overflow-wrap: anywhere; margin-top: 10px; color: #356eaf; font-size: 12px; }
 footer { background: #447dc4; color: #fff; padding: 18px 40px; font-size: 12px; line-height: 1.8; }
 footer p { margin: 0; }
 [hidden] { display: none !important; }
@@ -41,3 +41,4 @@ footer p { margin: 0; }
   .media { border-top: 1px solid #e8eef5; padding-top: 26px; }
   footer { padding: 18px 24px; font-size: 11px; }
 }
+
