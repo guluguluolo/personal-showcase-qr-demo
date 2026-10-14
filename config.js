@@ -18,4 +18,3 @@ window.SHOWCASE_CONFIG = {
   publicUrl: "https://guluguluolo.github.io/personal-showcase-qr-demo/",
   qrImage: "assets/site-qr.png"
 };
-
