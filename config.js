@@ -16,5 +16,8 @@ window.SHOWCASE_CONFIG = {
   ],
   // 正式发布并核对网址后再填。地址不变时，更新内容不用换二维码。
   publicUrl: "https://guluguluolo.github.io/personal-showcase-qr-demo/",
-  qrImage: "assets/site-qr.png"
+  qrImage: "assets/site-qr.png",
+  gallery: [
+    { src: "assets/showcase-5e.png", title: "5E 游戏战绩截图", description: "原始截图展示，点击可打开大图查看。" }
+  ]
 };

@@ -28,6 +28,17 @@ h3 { font-size: 13px; margin: 0 0 12px; font-weight: 500; }
 footer { background: #447dc4; color: #fff; padding: 18px 40px; font-size: 12px; line-height: 1.8; }
 footer p { margin: 0; }
 [hidden] { display: none !important; }
+.gallery { margin: 0 40px 36px; padding-top: 30px; border-top: 1px solid #e8eef5; }
+.gallery h2 { font-size: 24px; }
+.gallery .tagline { margin-bottom: 20px; }
+.gallery figure { margin: 0; }
+.gallery a { display: block; border-radius: 10px; overflow: hidden; }
+.gallery a:focus-visible { outline: 3px solid #447dc4; outline-offset: 4px; }
+.gallery img { display: block; width: 100%; height: auto; }
+.gallery figcaption { margin-top: 16px; font-size: 13px; }
+.gallery figcaption h3 { color: #182c45; font-size: 16px; margin-bottom: 5px; }
+.gallery figcaption p { margin: 0; }
+@media (max-width: 600px) { .gallery { margin: 0 24px 28px; } }
 @media (max-width: 600px) {
   body { padding: 16px 12px; }
   .card { border-radius: 14px; }
@@ -41,4 +52,3 @@ footer p { margin: 0; }
   .media { border-top: 1px solid #e8eef5; padding-top: 26px; }
   footer { padding: 18px 24px; font-size: 11px; }
 }
-

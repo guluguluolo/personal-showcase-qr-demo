@@ -22,6 +22,26 @@
     row.append(label, value);
     document.getElementById("fields").append(row);
   }
+  for (const item of data.gallery ?? []) {
+    const figure = document.createElement("figure");
+    const link = document.createElement("a");
+    const img = document.createElement("img");
+    const caption = document.createElement("figcaption");
+    const title = document.createElement("h3");
+    const description = document.createElement("p");
+    link.href = item.src;
+    link.setAttribute("aria-label", "查看原图：" + item.title);
+    img.src = item.src;
+    img.alt = item.title;
+    img.loading = "lazy";
+    title.textContent = item.title;
+    description.textContent = item.description;
+    link.append(img);
+    caption.append(title, description);
+    figure.append(link, caption);
+    document.getElementById("gallery-items").append(figure);
+    document.getElementById("gallery-section").hidden = false;
+  }
   if (data.publicUrl && data.qrImage) {
     try {
       const url = new URL(data.publicUrl);
