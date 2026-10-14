@@ -15,6 +15,7 @@ window.SHOWCASE_CONFIG = {
     { label: "更新时间", value: "2026-10-15" }
   ],
   // 正式发布并核对网址后再填。地址不变时，更新内容不用换二维码。
-  publicUrl: "",
-  qrImage: ""
+  publicUrl: "https://guluguluolo.github.io/personal-showcase-qr-demo/",
+  qrImage: "assets/site-qr.png"
 };
+
