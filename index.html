@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="个人展示测试页面，仅用于网页与二维码技术学习。">
+  <title>个人展示测试页</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="config.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="card" aria-labelledby="page-title">
+    <header class="banner">
+      <p class="eyebrow">PERSONAL SHOWCASE / DEMO</p>
+      <h1 id="page-title">个人展示测试页</h1>
+      <p id="subtitle">一个可以通过网页链接分享的个人介绍</p>
+    </header>
+    <div class="notice"><span class="dot" aria-hidden="true"></span>演示页面 · 非官方证件 · 不提供健康资格认证</div>
+    <div class="content">
+      <section class="info" aria-labelledby="name">
+        <p class="section-label">关于我</p>
+        <h2 id="name">示例用户</h2>
+        <p id="tagline" class="tagline">网页与二维码技术学习者</p>
+        <dl id="fields"></dl>
+      </section>
+      <aside class="media" aria-label="头像和访问二维码">
+        <figure>
+          <img id="portrait" src="assets/placeholder.svg" alt="通用头像占位图" width="180" height="220">
+          <figcaption id="photo-caption">测试头像 · 可替换为自己的照片</figcaption>
+        </figure>
+        <section class="qr-area" aria-labelledby="qr-title">
+          <h3 id="qr-title">扫码访问此页面</h3>
+          <div id="qr-placeholder" class="qr-placeholder">上线后生成<span>正式网址尚未配置</span></div>
+          <img id="qr-image" alt="此页面的访问二维码" width="180" height="180" hidden>
+          <a id="page-link" hidden rel="noopener noreferrer">打开网页原始地址</a>
+        </section>
+      </aside>
+    </div>
+    <footer><p>本页资料为虚构测试数据，仅用于个人展示和网页技术学习。</p><p>不属于政府、卫生机构或官方证件核验系统。</p></footer>
+  </main>
+  <noscript>请启用 JavaScript 以显示配置中的展示资料。</noscript>
+</body>
+</html>
